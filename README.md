@@ -6,7 +6,7 @@ It is intended for learning, revision, and strengthening Java fundamentals.
 ## 📚 Topics Covered
 - Java basics and syntax
 - Object-Oriented Programming (OOP)
-- Collections Frameworkgit 
+- Collections
 - Lambda Expressions
 - Multithreading and Concurrency
 - Exception Handling
