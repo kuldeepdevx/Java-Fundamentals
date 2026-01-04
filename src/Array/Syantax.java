@@ -2,11 +2,11 @@ package Array;
 import java.util.Scanner;
 
 public class Syantax {
-    static{
+    static {
         System.out.println("int sattic!");
     }
     {
-        System.out.println("in ini");
+        System.out.println("in init");
     }
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);

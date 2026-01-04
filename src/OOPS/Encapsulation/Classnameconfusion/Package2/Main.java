@@ -1,5 +1,6 @@
 package OOPS.Encapsulation.Classnameconfusion.Package2;
-import OOPS.Encapsulation.Classnameconfusion.Package1.*;
+/*import OOPS.Encapsulation.Classnameconfusion.Package1.*; no error because this statement is useless we have to must
+use fully qualified name*/
 
 public class Main{
     public static void main(String[] args){
