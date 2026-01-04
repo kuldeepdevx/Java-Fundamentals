@@ -27,7 +27,11 @@ public class BankCustomer{
         System.out.println(customer2.checkBalance());
         System.out.println(customer2);
 
+        BankAccount customer3=new BankAccount(67890,
+                "Samay", 400);
+
         System.out.println(BankAccount.totalAccounts);
+        System.out.println(BankAccount.totalApplications);
     }
 }
 

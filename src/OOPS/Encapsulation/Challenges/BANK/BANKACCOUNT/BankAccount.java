@@ -1,6 +1,7 @@
 package OOPS.Encapsulation.Challenges.BANK.BANKACCOUNT;
 
 public class BankAccount{
+    public static int totalApplications;
     public static int totalAccounts;
 
     private long accountNumber;
@@ -8,26 +9,25 @@ public class BankAccount{
     private double accountBalance;
 
     static{
-        System.out.println("******************************Welcome to bank******************************\n");
+        System.out.println("****************************** Welcome to the Bank ******************************\n");
         totalAccounts=0;
     }
 
     {
-        totalAccounts++;
-        accountBalance=0;
+       totalApplications++;
     }
 
     public BankAccount(int accountNumber,
                        String holderName,double accountBalance){
         if(accountBalance<500){
-            System.out.println("For opening account balance should be more than 500");
+            System.out.println("To open an account, the balance must be at least 500.\n");
+            return;
         }
-        else{
             this.accountBalance=accountBalance;
             this.holderName=holderName;
             this.accountNumber=accountNumber;
-            System.out.println("\n\nThanks for opening bank account "+this.holderName+"\n");
-        }
+            totalAccounts++;
+            System.out.println("\n\nThank you for opening a bank account "+this.holderName+"\n");
     }
 
     public String getHolderName(){
@@ -48,21 +48,21 @@ public class BankAccount{
 
     public void deposite(double balance){
         if(balance<=0){
-            System.out.println("Invalid Balance to deposite");
+            System.out.println("Invalid amount to deposit.");
         }else {
             this.accountBalance += balance;
-            System.out.println("Deposite of rs:" + balance + " is succesfull");
+            System.out.println("Deposit of Rs:"+ balance +" was successful.");
         }
     }
 
     public void withdraw(double balance){
         if(balance>this.accountBalance){
-            System.out.println("Insufficient money to withdraw");
+            System.out.println("Insufficient balance for withdrawal");
         }else if(balance<=0) {
-            System.out.println("Invalid money to withdraw");
+            System.out.println("Invalid amount for withdrawal");
         }else{
             this.accountBalance -= balance;
-            System.out.println("Withdraw of rs:" + balance + " is succesfull");
+            System.out.println("Withdrawal of rs:" + balance + " is successful");
         }
     }
 
