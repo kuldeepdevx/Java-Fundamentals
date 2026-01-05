@@ -6,18 +6,22 @@ public class Rectangle{
     private double length;
 
     public  Rectangle(double length,double breadth){
-        if(length<=0 || breadth<=0){
+        if(!isValidMeaures(length,breadth)){
             System.out.println("Invalid data");
             this.length=0;
             this.breadth=0;
-        }else{
+            return;
+        }
             this.length=length;
             this.breadth=breadth;
-        }
     }
 
     double calculateArea(){
         return Calculator.areaOfRectangle(length,breadth);
+    }
+
+    private static boolean isValidMeaures(double length,double breadth){
+        return length>=0 && breadth>=0;
     }
 
     @Override

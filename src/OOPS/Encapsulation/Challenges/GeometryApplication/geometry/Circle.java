@@ -5,18 +5,21 @@ public class Circle{
     private  double radius;
 
     public Circle(double radius){
-        if(radius<=0){
+        if(!isValidRadius(radius)){
             System.out.println("Invalid data");
             this.radius=0;
-        }else {
-            this.radius = radius;
+            return;
         }
+            this.radius = radius;
     }
 
     double calculateArea(){
         return Calculator.areaOfCircle(radius);
     }
 
+    private static boolean isValidRadius(double radius){
+        return radius>0;
+    }
     @Override
     public String toString(){
         return "Area of circle is "+Calculator.areaOfCircle(radius);
