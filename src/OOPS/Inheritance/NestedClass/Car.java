@@ -12,6 +12,5 @@ public class Car {
             show();
             noOfTyres=2;
         }
-
     }
 }
