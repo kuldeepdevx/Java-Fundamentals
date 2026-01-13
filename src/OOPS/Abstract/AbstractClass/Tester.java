@@ -1,10 +1,11 @@
 package OOPS.Abstract.AbstractClass;
 
-public class Test {
+public class Tester {
     public static void main(String[] args){
 
         Car swift=new Car(4);
         swift.setName("Swift");
-        System.out.println(swift.getName());
+
+        swift.makeSound();
     }
 }

@@ -7,6 +7,17 @@ public class Square extends Shape{
     Square(double side){
         this.side=side;
     }
+
+    public double getSide(){
+        return side;
+    }
+
+    @Override
+    public double calculatePerimeter(){
+        return side*side;
+    }
+
+    @Override
     public double calculateArea(){
         return side*side;
     }
