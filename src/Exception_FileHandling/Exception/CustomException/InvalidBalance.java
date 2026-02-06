@@ -1,4 +1,4 @@
-package Exception_FileHandling.CustomException;
+package Exception_FileHandling.Exception.CustomException;
 
 public class InvalidBalance extends RuntimeException{
 

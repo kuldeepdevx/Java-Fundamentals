@@ -1,4 +1,4 @@
-package Exception_FileHandling.Excetpionstack;
+package Exception_FileHandling.Exception.Excetpionstack;
 import java.util.Scanner;
 
 public class ExceptionStack {

@@ -1,4 +1,4 @@
-package Exception_FileHandling.Throw_Throws;
+package Exception_FileHandling.Exception.Throw_Throws;
 import java.util.Scanner;
 
 public class Test {

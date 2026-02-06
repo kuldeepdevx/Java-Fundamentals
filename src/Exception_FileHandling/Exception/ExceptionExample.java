@@ -1,4 +1,4 @@
-package Exception_FileHandling;
+package Exception_FileHandling.Exception;
 import java.util.Scanner;
 
 public class ExceptionExample {
@@ -6,11 +6,11 @@ public class ExceptionExample {
         Scanner input=new Scanner(System.in);
 
         System.out.print("Enter first num:");
-        int a=input.nextInt();
+        double a=input.nextDouble();
         System.out.print("Enter second num:");
-        int b=input.nextInt();
+        double b=input.nextDouble();
         try{
-            int result=a/b;
+            double result=a/b;
             System.out.println("result is "+result);
         }catch(ArithmeticException e){
             System.out.println(e.getMessage());
