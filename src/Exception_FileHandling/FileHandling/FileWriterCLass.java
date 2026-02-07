@@ -3,10 +3,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class MyFIle {
+public class FileWriterCLass {
     public static void main(String[] args) throws IOException {
         Scanner input=new Scanner(System.in);
-        try(FileWriter fw=new FileWriter("a.txt",true)){
+        try(FileWriter fw=new FileWriter("a.txt",!true)){
             System.out.print("Enter your full name:");
             fw.write(input.nextLine());
         }catch(IOException e){
