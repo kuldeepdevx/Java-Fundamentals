@@ -1,9 +1,1 @@
-Procedure for Making Claims of Copyright Infringement
-Oracle respects the intellectual property rights of others, and we ask our individuals using Oracle Web sites to do the same. If you believe that your copyrighted work has been copied and is accessible on an Oracle Web site in a way that constitutes copyright infringement, please send a Notice to our Copyright Agent providing the following information:
-
-The electronic or physical signature of the owner of the copyright or the person authorized to act on the owner’s behalf
-A description of the copyrighted work that you claim has been infringed and a description of the infringing activity
-A description of where the material that you claim is infringing is located, such as the URL where it is posted
-Your name, address, telephone number, and email address
-A statement by you that you have a good faith belief that the disputed use of the material is not authorized by the copyright owner, its agent, or the law
-A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or are authorized to act on the copyright owner’s behalf
+kuldeeep
