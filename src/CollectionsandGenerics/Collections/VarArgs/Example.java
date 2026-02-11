@@ -1,6 +1,6 @@
-package CollectionsandGenerics.Collections;
+package CollectionsandGenerics.Collections.VarArgs;
 
-public class VarArgs {
+public class Example {
     public static void main(String[] args){
         System.out.println(sums(2,3,4));
         System.out.println(sums());
