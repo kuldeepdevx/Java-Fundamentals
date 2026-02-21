@@ -1,4 +1,4 @@
-package CollectionsandGenerics.Collections.VarArgs;
+package CollectionsandGenerics.CollectionsConcepts.VarArgs;
 
 public class Example {
     public static void main(String[] args){

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class FileWriterCLass {
     public static void main(String[] args) throws IOException {
         Scanner input=new Scanner(System.in);
-        try(FileWriter fw=new FileWriter("myFile.txt",!true)){
+        try(FileWriter fw=new FileWriter("myFile.txt",true)){
             System.out.print("Enter your full name:");
             fw.write(input.nextLine());
         }catch(IOException e){
